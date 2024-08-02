@@ -1,0 +1,183 @@
+body {
+    color: #40514E;
+    margin: 0;
+    text-align: center;
+    font-family: "Quicksand", sans-serif;
+}
+
+.Main-head {
+    font-family: "Sacramento", cursive;
+    font-weight: 400;
+    font-style: normal;
+    color: #44aaaa;
+    font-size: 5.625rem;
+    position: relative;
+    margin: 0 auto;
+}
+
+.Head-body {
+    font-family: "Quicksand", sans-serif;
+    color: #44aaaa;
+    font-size: 1.2rem;
+    position: relative;
+    margin: 20px auto;
+}
+
+h2 {
+    font-family: "Sacramento", cursive;
+    padding-top: 15px;
+    font-size: 2.7rem;
+    color: #44aaaa;
+}
+
+p {
+    font-size: 1.1rem;
+}
+
+hr {
+    border: dotted 10px lightgrey;
+    border-bottom: none;
+    width: 4%;
+    margin: 50px auto;
+}
+
+a:hover {
+    color: #9beeee;
+}
+
+.topcontainer {
+    background-color: #DFFFD8;
+    margin-top: 0;
+    position: relative;
+    padding-top: 150px; 
+}
+
+.middle-container {
+    padding: 60px 0 0 0;
+    margin-bottom: 0;
+}
+
+.bottom-container {
+    background-color: #DFFFD8;
+    padding: 40px auto 10px auto;
+}
+
+.btn {
+    -webkit-border-radius: 3;
+    -moz-border-radius: 3;
+    font-family: "Quicksand";
+    border-radius: 3px;
+    color: #ffffff;
+    font-size: 23px;
+    background: #44aaaa;
+    padding: 10px 20px;
+    text-decoration: none;
+}
+
+.btn:hover {
+    text-decoration: none;
+}
+
+.contact-me {
+    width: 40%;
+    margin: 100px auto;
+}
+
+.footer-link {
+    margin: 20px auto;
+    color: #44aaaa;
+    font-size: 1.2rem;
+    padding-right: 5px;
+    text-decoration: none;
+}
+
+.copyrights {
+    color: #44aaaa;
+    margin-bottom: 0;
+    padding: 20px 0;
+}
+
+.cloud-img1,
+.cloud-img2 {
+    height: 200px;
+    width: 200px;
+    position: absolute;
+}
+
+.cloud-img1 {
+    top: 50px;
+    right: 200px;
+}
+
+.cloud-img2 {
+    left: 200px;
+    bottom: 300px;
+}
+
+.mountain-img {
+    height: 300px;
+    width: 100%;
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+.profile-pic1,
+.profile-pic2,
+.profile-pic3 {
+    height: 115px;
+    width: 115px;
+}
+
+@media (max-width: 768px) {
+    .Main-head {
+        font-size: 3rem;
+        left: 0;
+        bottom: 0;
+        margin-top: 50px;
+    }
+
+    .Head-body {
+        font-size: 1rem;
+        left: 0;
+        bottom: 0;
+        margin-top: 10px;
+    }
+
+    .cloud-img1,
+    .cloud-img2 {
+        height: 100px;
+        width: 100px;
+    }
+
+    .topcontainer {
+        padding-top: 120px; 
+    }
+}
+
+@media (max-width: 480px) {
+    .Main-head {
+        font-size: 2.5rem;
+    }
+
+    .Head-body {
+        font-size: 0.9rem;
+    }
+
+    .cloud-img1,
+    .cloud-img2 {
+        display: none;
+    }
+
+    .btn {
+        font-size: 1rem;
+        padding: 10px;
+    }
+
+    .contact-me {
+        width: 80%;
+    }
+
+    .topcontainer {
+        padding-top: 100px; 
+    }
+}
